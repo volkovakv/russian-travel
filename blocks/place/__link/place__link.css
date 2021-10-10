@@ -1,5 +1,4 @@
-.place__website__link {
-
+.place__link {
     max-height: 22px;
     font-family: Inter;
     font-style: normal;
@@ -12,6 +11,6 @@
     object-fit: content;
 }
 
-.place__website__link:hover {
+.place__link:hover {
     opacity: 40%;
   }
