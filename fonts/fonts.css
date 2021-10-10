@@ -7,7 +7,7 @@
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%; 
+    -moz-text-size-adjust: 100%;
     src: url("Inter-Thin.woff2?v=3.19") format("woff2"),
          url("Inter-Thin.woff?v=3.19") format("woff");
   }
@@ -100,7 +100,7 @@
     font-weight: 400;
     font-display: swap;
     -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;    
+    -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
@@ -243,39 +243,5 @@
          url("Inter-BlackItalic.woff?v=3.19") format("woff");
   }
   
-  /* -------------------------------------------------------
-  Variable font.
-  Usage:
-  
-    html { font-family: 'Inter', sans-serif; }
-    @supports (font-variation-settings: normal) {
-      html { font-family: 'Inter var', sans-serif; }
-    }
-  */
-  @font-face {
-    font-family: 'Inter var';
-    font-weight: 100 900;
-    font-display: swap;
-    font-style: normal;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    font-named-instance: 'Regular';
-    src: url("Inter-roman.var.woff2?v=3.19") format("woff2");
-  }
-  @font-face {
-    font-family: 'Inter var';
-    font-weight: 100 900;
-    font-display: swap;
-    font-style: italic;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    font-named-instance: 'Italic';
-    src: url("Inter-italic.var.woff2?v=3.19") format("woff2");
-  }
+
   
