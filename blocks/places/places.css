@@ -1,0 +1,15 @@
+.places {
+   max-width: calc(100% - 100px*2);
+}
+
+@media screen and (max-width:880px) {
+   .places {
+       max-width: 92%;
+   }
+}
+
+@media screen and (max-width:320px) {
+   .places {
+       max-width: 100%;
+   }
+}

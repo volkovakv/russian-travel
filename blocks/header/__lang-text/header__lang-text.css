@@ -1,0 +1,17 @@
+.header__lang-text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header__lang-text:nth-of-type(2){
+    text-decoration: none;
+}
+
+.header__lang-text:hover {
+    opacity: 40%;
+  }

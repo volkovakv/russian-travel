@@ -1,0 +1,29 @@
+.place__text {
+    width: 100%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.63;
+    color: #FFFFFF;
+    margin: 0 0 26px 0;
+    padding: 0;
+    object-fit: content;
+}
+
+@media screen and (max-width:1010px) {
+    .place__text {
+        min-width: 352px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:385px) {
+    .place__text {
+        min-width: 300px;
+        width: 95%;
+        font-size: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

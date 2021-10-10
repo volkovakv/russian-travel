@@ -1,0 +1,8 @@
+.place__image {
+    min-width: 320px;
+    min-height: 320px;
+    width: 100%;
+    object-fit: content;
+    object-position: center;
+}
+

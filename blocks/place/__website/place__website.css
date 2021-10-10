@@ -1,0 +1,13 @@
+.website {
+    max-width: 456px;
+}
+
+@media screen and (max-width:385px) {
+    .place__website {
+        min-width: 300px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        align-self: center;
+    }
+}
