@@ -1,14 +1,29 @@
 .cover {
     display: flex;
     max-width: 1184px;
-    width: 95%;
     max-height: 740px;
-   flex-direction: column;
+    width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center; 
+    margin-top: 60px;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width:900px) {
+    .cover{
+        margin-top: 58px;
+        margin-bottom: 80px;
+    }
 }
 
 
+@media screen and (max-width:400px) {
+    .cover{
+        margin-top: 34px;
+        margin-bottom: 64px;
+    }
+}
 
 
 

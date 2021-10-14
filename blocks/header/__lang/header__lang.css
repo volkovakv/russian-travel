@@ -1,9 +1,7 @@
 .header__lang {
     margin-right: 18px;
-    text-decoration-line: underline;
 }
 
-.header__lang:nth-child(2) {
+.header__lang:last-child { 
     margin-right: 0px;
-    text-decoration-line: none;
 }

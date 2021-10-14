@@ -1,24 +1,10 @@
 .intro__text {
-    width: 100%;
-    font-family: Inter;
+    max-width: 690px;
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 1.63;
     color: #FFFFFF;
-    margin-top: 0;
-    margin-bottom: 33px;
-    margin-right: 294px;
-}
-
-@media screen and (max-width:1080px) {
-    .intro__text {
-        margin-right: 238px;  
-    }
-}
-
-@media screen and (max-width: 984px) {
-    .intro__text {
-        margin-left: 0; 
-    }
+    margin-bottom: 0 0 33px 0;
 }

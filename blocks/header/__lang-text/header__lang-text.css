@@ -1,5 +1,5 @@
 .header__lang-text {
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -8,9 +8,6 @@
     text-decoration: none;
 }
 
-.header__lang-text:nth-of-type(2){
-    text-decoration: none;
-}
 
 .header__lang-text:hover {
     opacity: 40%;

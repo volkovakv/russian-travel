@@ -6,12 +6,19 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 28px 0 0 0;
-    margin: 0 auto;
+    padding: 0;
+    margin: 28px auto 0;
 }
 
 @media screen and (max-width:1280px) {
     .header {
-    width: 92%;
+        width: 92%;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .header {
+        width: 92%;
+        margin-top: 16px;
     }
 }
