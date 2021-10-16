@@ -1,20 +1,16 @@
 .footer__links {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
     margin: 0;
     padding: 0;
-    padding-bottom: 24px;
 }
 
 @media screen and (max-width:710px) {
     .footer__links {
         width:100%;
         flex-direction: column;
-        justify-content: flex-start;
         align-items: flex-start;
-        align-self: flex-start;
-        padding-bottom: 0;
     }
 }

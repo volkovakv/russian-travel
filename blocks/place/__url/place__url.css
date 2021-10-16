@@ -1,4 +1,5 @@
 .place__url {
+    width: 100%;
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -6,6 +7,6 @@
     line-height: 1;
     letter-spacing: 2px;
     color: #AAAAAA;
-    margin: 0;
+    margin: 0 0 12px 0;
     padding: 0;
 }

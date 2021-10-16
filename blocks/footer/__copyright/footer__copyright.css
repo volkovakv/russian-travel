@@ -1,6 +1,6 @@
 .footer__copyright {
-    align-items: flex-start;
     max-width: 186px;
+    width: 100%;
     font-family: Inter, Arial, sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -8,16 +8,14 @@
     line-height: 1.14;
     text-align: right;
     color: #FFFFFF;
-    margin: 0 0 24px 0;
+    margin: 0;
     padding: 0;
 }
 
 @media screen and (max-width:710px) {
     .footer__copyright {
-        width:100%;
-        font-size: 14px;
         line-height: 1;
         text-align: left;
-        margin-top: 16px;
+        margin-top: 48px;
     }
 }

@@ -10,7 +10,7 @@
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     text-decoration: none;
-    }
+}
     
 .cover__background::after {
     content: '';
@@ -20,7 +20,7 @@
     position: absolute;
     background: #2A2C2F;
     opacity: 30%;  
-    }    
+}    
     
 .cover__background:hover:after{
     opacity: 80%;

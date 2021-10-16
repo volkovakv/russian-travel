@@ -1,5 +1,6 @@
 .place__website {
     max-width: 456px;
+    width: 100%;
     align-self: end;
 }
 

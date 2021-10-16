@@ -3,7 +3,7 @@
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
-    line-height: 1;
+    line-height: 1.17;
     color: #FFFFFF;
     text-decoration: none;
 }
@@ -11,4 +11,10 @@
 
 .header__lang-text:hover {
     opacity: 40%;
+  }
+
+@media screen and (max-width:340px) {
+      .header__lang-text {
+        font-size: 18px;
+      }
   }
