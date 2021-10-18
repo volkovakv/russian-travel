@@ -1,7 +1,6 @@
 .cover {
     display: flex;
     max-width: 1184px;
-    max-height: 740px;
     width: 100%;
     flex-direction: column;
     justify-content: center;

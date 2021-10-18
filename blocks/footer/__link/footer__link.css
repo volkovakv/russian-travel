@@ -1,6 +1,4 @@
 .footer__link {
-    max-width: 106px;
-    width: 100%;
     margin: 0 18px 0 0;
     list-style-type: none;
     padding: 0;
@@ -12,7 +10,6 @@
 
 @media screen and (max-width:710px) {
     .footer__link {
-        max-width: 158px;
         margin-bottom: 32px;
     }
 }

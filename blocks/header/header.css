@@ -10,16 +10,16 @@
     margin-top: 28px;
 }
 
-@media screen and (max-width:1180px) {
+@media screen and (max-width:1185px) {
     .header {
         max-width: 928px;
+        width: 95%;
         margin-right: auto;
         margin-left: auto;
     }
 }
 
-
-@media screen and (max-width:850px) {
+@media screen and (max-width:929px) {
     .header {
         max-width: 720px;
     }
